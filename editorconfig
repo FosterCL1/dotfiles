@@ -1,0 +1,15 @@
+root = true
+trim_trailing_whitespace = true
+
+[*.java]
+indent_syle = space
+indent_size = 4
+max_line_length = 120
+
+[*.{c,h}]
+indent_style = tab
+tab_width = 8
+max_line_length = 80
+
+[*.txt]
+max_line_length = 80
