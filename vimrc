@@ -173,6 +173,11 @@ endif
 colorscheme desert
 set relativenumber
 
+" Install vim plug for these to work. clone junegunn/vim-plug and throw the
+" plug.vim file into ~/.vim/autoload/
+"
+" Then call :PlugInstall once and Bob's your uncle!
+
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
 Plug 'https://github.com/ntpeters/vim-better-whitespace'
