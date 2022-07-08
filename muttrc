@@ -10,9 +10,13 @@ set imap_keepalive=180
 set imap_idle
 unset mark_old
 set ssl_use_sslv3=yes
+set imap_authenticators="xoauth2"
+set imap_oauth_refresh_command="/home/colin/.mutt/mutt_oauth2.py /home/colin/.mutt/${imap_user}.tokens"
 
 set smtp_url=smtp://colin.foster@in-advantage.com@outlook.office365.com:587
 set ssl_force_tls=yes
+set smtp_authenticators=${imap_authenticators}
+set smtp_oauth_refresh_command=${imap_oauth_refresh_command}
 
 set header_cache=~/.cache/mutt
 
