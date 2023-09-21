@@ -21,4 +21,4 @@ mutt:
 editorconfig:
 	cp editorconfig ~/.editorconfig
 
-install: vimrc bashrc inputrc tmux git mutt editorconfig
+install: vim bash inputrc tmux git mutt editorconfig
