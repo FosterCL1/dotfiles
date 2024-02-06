@@ -121,3 +121,7 @@ shopt -s histappend
 # After each command, save and reload history
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
+# Import the pylibavds bash completion
+if [ -f ~/.pylibavds-complete.bash ]; then
+    . ~/.pylibavds-complete.bash
+fi
