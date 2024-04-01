@@ -181,5 +181,6 @@ set relativenumber
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
 Plug 'https://github.com/ntpeters/vim-better-whitespace'
+Plug 'psf/black'
 call plug#end()
 
