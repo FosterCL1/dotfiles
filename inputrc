@@ -67,4 +67,8 @@ $endif
 # "\e[H": beginning-of-line
 # "\e[F": end-of-line
 
+# On Dvorak, ctrl-j is too close to ctrl-k
+# Block the former, since C-j was basically enter
+"\C-j": nop
+
 $endif
