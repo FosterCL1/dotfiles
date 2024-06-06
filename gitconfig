@@ -3,3 +3,7 @@
 	name = Colin Foster
 [core]
     editor = vim
+[b4]
+        midmask = https://lore.kernel.org/r/%s
+[alias]
+        b4 = "!f() { b4 am -t -o - $@ | git am -3; }; f"
