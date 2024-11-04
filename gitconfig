@@ -9,3 +9,5 @@
         b4 = "!f() { b4 am -t -o - $@ | git am -3; }; f"
 [init]
 	defaultBranch = main
+[branch]
+	sort = -committerdate
