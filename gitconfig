@@ -11,3 +11,13 @@
 	defaultBranch = main
 [branch]
 	sort = -committerdate
+[sendemail]
+    smtpencryption = tls
+    smtpserver = smtp.office365.com
+    smtpuser = colin.foster@in-advantage.com
+    smtpserverport = 587
+    suppresscc = self
+    to = colin.foster@in-advantage.com
+    from = colin.foster@in-advantage.com
+    smtpdomain = in-advantage.com
+
